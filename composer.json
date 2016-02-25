@@ -1,0 +1,15 @@
+{
+	"name": "brad-jones/robo-runner",
+	"description": "A custom Robo Runner, that does not require an actual \"RoboFile.php\" just a class of your choosing.",
+	"homepage": "https://github.com/brad-jones/robo-runner",
+	"keywords": ["robo", "runner", "custom", "task"],
+	"license": "MIT",
+	"autoload":
+	{
+		"psr-4": { "Brads\\Robo\\": "" }
+	},
+	"require":
+	{
+		"codegyre/robo": "^0.5|^0.6|^0.7"
+	}
+}
